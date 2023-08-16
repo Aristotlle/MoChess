@@ -22,19 +22,19 @@ class ChessBoard():
         self.root.mainloop()
     def load_pieces_img(self):
         self.piece_images = {
-            'wR': ImageTk.PhotoImage(Image.open('wRook.png')),
-            'wB': ImageTk.PhotoImage(Image.open('wBishop.png')),
-            'wQ': ImageTk.PhotoImage(Image.open('wQueen.png')),
-            'wK': ImageTk.PhotoImage(Image.open('wKing.png')),
-            'wN': ImageTk.PhotoImage(Image.open('wKnight.png')),
-            'wP': ImageTk.PhotoImage(Image.open('wPawn.png')),
-            'bR': ImageTk.PhotoImage(Image.open('bRook.png')),
-            'bB': ImageTk.PhotoImage(Image.open('bBishop.png')),
-            'bQ': ImageTk.PhotoImage(Image.open('bQueen.png')),
-            'bK': ImageTk.PhotoImage(Image.open('bKing.png')),
-            'bN': ImageTk.PhotoImage(Image.open('bKnight.png')),
-            'bP': ImageTk.PhotoImage(Image.open('bPawn.png')),
-            'e': ImageTk.PhotoImage(Image.open('empty.png'))
+            'wR': ImageTk.PhotoImage(Image.open('images/wRook.png')),
+            'wB': ImageTk.PhotoImage(Image.open('images/wBishop.png')),
+            'wQ': ImageTk.PhotoImage(Image.open('images/wQueen.png')),
+            'wK': ImageTk.PhotoImage(Image.open('images/wKing.png')),
+            'wN': ImageTk.PhotoImage(Image.open('images/wKnight.png')),
+            'wP': ImageTk.PhotoImage(Image.open('images/wPawn.png')),
+            'bR': ImageTk.PhotoImage(Image.open('images/bRook.png')),
+            'bB': ImageTk.PhotoImage(Image.open('images/bBishop.png')),
+            'bQ': ImageTk.PhotoImage(Image.open('images/bQueen.png')),
+            'bK': ImageTk.PhotoImage(Image.open('images/bKing.png')),
+            'bN': ImageTk.PhotoImage(Image.open('images/bKnight.png')),
+            'bP': ImageTk.PhotoImage(Image.open('images/bPawn.png')),
+            'e': ImageTk.PhotoImage(Image.open('images/empty.png'))
         }
 
     def button_clicked(self, row, col):
